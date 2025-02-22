@@ -15,11 +15,11 @@ export const Inbox=() =>{
         getMailList();
     },[])
     return (
-        <div>
+        <main>
             Inbox page
             {
                 mails.map(mail => <Mail key={mail.id} mail={mail}/>)
             }
-        </div>
+        </main>
     )
 }
