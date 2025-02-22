@@ -1,8 +1,11 @@
 import './App.css'
+import { Inbox } from './pages/Inbox'
 
 function App() {
   return (
-    <></>
+    <>
+    <Inbox/>
+    </>
   )
 }
 
